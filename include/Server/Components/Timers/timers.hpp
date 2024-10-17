@@ -12,7 +12,7 @@ struct ITimer : public IExtensible
 	/// Get whether the timer is running or has been killed
 	virtual bool running() const = 0;
 
-	/// Get the timer is paused state
+	/// Get the timer paused state
 	virtual bool paused() const = 0;
 
 	/// Get the remaining time until time out
