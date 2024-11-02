@@ -21,6 +21,7 @@ constexpr int INVALID_VEHICLE_ID = 0xFFFF;
 constexpr int INVALID_OBJECT_ID = 0xFFFF;
 constexpr int INVALID_PLAYER_ID = 0xFFFF;
 constexpr int INVALID_ACTOR_ID = 0xFFFF;
+constexpr int INVALID_LEGACY_ACTOR_ID = -1;
 constexpr float STREAM_DISTANCE = 200.f;
 constexpr int MAX_ATTACHED_OBJECT_SLOTS = 10;
 constexpr int MAX_OBJECT_MATERIAL_SLOTS = 16;

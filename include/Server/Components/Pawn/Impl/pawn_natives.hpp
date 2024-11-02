@@ -534,7 +534,6 @@ namespace pawn_natives
 {
 
 POOL_PARAM(IPlayer, players);
-POOL_PARAM(IActor, actors);
 POOL_PARAM(IClass, classes);
 POOL_PARAM(IMenu, menus);
 POOL_PARAM(IObject, objects);
@@ -553,6 +552,8 @@ PLAYER_DATA_PARAM(IPlayerTextDrawData);
 PLAYER_DATA_PARAM(IPlayerConsoleData);
 PLAYER_DATA_PARAM(IPlayerDialogData);
 
+GLOBAL_MIXED_POOL_PARAM(IActor, actors);
+PLAYER_MIXED_POOL_PARAM(IPlayerActor, IPlayerActorData, actors);
 GLOBAL_MIXED_POOL_PARAM(IPickup, pickups);
 PLAYER_MIXED_POOL_PARAM(IPlayerPickup, IPlayerPickupData, pickups);
 GLOBAL_MIXED_POOL_PARAM(IGangZone, gangzones);
